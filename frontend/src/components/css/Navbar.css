@@ -1,0 +1,93 @@
+
+ .navbar-light {
+  
+  
+  box-shadow: 0px 1px 8px #0345c0;
+  display: flex;
+  align-items: center;
+  top: 0;
+  z-index: 1;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: white;
+  transition: 0.9s;
+} 
+
+.navbar-dark {
+  
+
+  box-shadow: 0px 1px 8px #0345c0;
+  display: flex;
+  align-items: center;
+  top: 0;
+  z-index: 1;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: #04222a;
+  transition: 0.9s;
+  width: 100%;
+}
+
+img {
+  width: 220px;
+  height: 60px;
+}
+.logo-light{
+    padding-left: 40px;
+    font-family: monospace;
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow: 3px 4px 7px #000000;
+}
+.logo-dark{
+  padding-left: 40px;
+  font-family: monospace;
+  letter-spacing: 4px;
+  font-size: 40px;
+  font-weight: 500;
+  text-shadow: 3px 4px 7px #f5f5f5;
+}
+
+.login{
+  margin-right: 40px;
+  margin-left: 50px;
+  width: 130px;
+  height: 50px;
+  overflow: visible;
+  justify-self: center;
+  align-self: center;
+  border-radius: 40px;
+  background-color: #22b8e1;
+  font-weight: 600;
+  font-size:100%;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.toggle-btn {
+  padding-left: 50px;
+}
+/*.h2, h2{
+    color: #c55c5c;
+}*/
+/* 
+.h2, h2{
+    background: -webkit-linear-gradient(rgb(116, 174, 240), #022d7c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Brush Script MT';
+    font-weight: bolder;
+} 
+
+{Navbar
+    background: #02151a;
+    opacity: 1;
+}
+
+
+
+*/
